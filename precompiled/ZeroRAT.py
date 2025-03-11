@@ -45,8 +45,8 @@ from telegram.ext import (Application, CommandHandler, MessageHandler, filters, 
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 from comtypes import CLSCTX_ALL
 
-BOT_TOKEN = "8001204660:AAGS2ZUJLafKGFsoFwvliQAz2tgean5P9II"
-CHAT_ID = "6943739637"
+BOT_TOKEN = ""
+CHAT_ID = "" #Modify this and paste your chat id
 TEMP_FOLDER = os.path.join(os.getenv('TEMP') or tempfile.gettempdir(), "system")
 DB_FOLDER = f"{TEMP_FOLDER}/server.db"
 
