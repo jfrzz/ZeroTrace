@@ -1,0 +1,49 @@
+ZeroRAT Help Guide
+
+This file contains a list of all available commands and their usage.
+
+Basic Commands
+
+- /start - Display client info and show the help message.
+- /help - Show this help message.
+- /systeminfo - Retrieve system specifications including CPU, RAM, disk, OS, and more.
+
+Remote Control
+
+- /screenshot - Capture the current screen and send the image.
+- /webcam - Take a picture using the webcam and send it.
+- /clipboard - Retrieve the current content of the clipboard.
+- /shell [command] - Execute a shell command and return the output.
+- /msgbox [message] - Display a message box on the victim's screen.
+- /notify [message] - Show a notification on the victim's system.
+
+System Management
+
+- /shutdown - Shutdown the system immediately.
+- /restart - Restart the system immediately.
+- /maxvolume - Set the system volume to maximum.
+- /mutevolume - Mute the system sound.
+- /critproc - Set the current process as critical (may cause a system crash if terminated).
+- /uncritproc - Remove the critical process flag.
+- /openurl [URL] - Open a URL in the default web browser.
+
+Data & Persistence
+
+- /getdb - Retrieve the database containing system information.
+- /persistentkit - Enable persistence by adding the bot to startup, registry, and task scheduler.
+- /removepersistence - Remove persistence from the system.
+- /detach - Detach and stop the bot from the current session.
+
+Media & Interaction
+
+- /playsound - Play an audio file sent by the user.
+- /say [text] - Convert text to speech and play the audio.
+- /changewallpaper - Change the desktop wallpaper to the last received photo.
+
+Proxy Management
+
+- /startproxy - Start a SOCKS5 proxy server on port 1080.
+- /stopproxy - Stop the running SOCKS5 proxy server.
+
+For further assistance, contact the developer or check the repository documentation.
+
