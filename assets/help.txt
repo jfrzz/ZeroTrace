@@ -39,6 +39,7 @@ Media & Interaction
 - /playsound - Play an audio file sent by the user.
 - /say [text] - Convert text to speech and play the audio.
 - /changewallpaper - Change the desktop wallpaper to the last received photo.
+- /jumpscare - Play a jumpscare video
 
 Proxy Management
 
